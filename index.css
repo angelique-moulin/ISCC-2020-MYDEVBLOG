@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css?family=Karla&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Pattaya');
+
+body {
+    background-color: pink (207, 55, 55);
+
+}
+
+.bgacc {
+    background-image: url(hp.jpg);
+    background-repeat: no-repeat;
+    background-size: 40%;
+    background-position-x: 50%;
+    background-position-y: -60%;
+}
+
+body p{
+     color: white;
+}
+
+.txtloading {
+    color: black (218, 197, 82);
+    font-family: 'Pattaya', sans-serif;
+    font-size: 22px;
+}
+
+.txt {
+    color: white (218, 197, 82);
+    font-family: 'Pattaya', sans-serif;
+    font-size: 40px;
+}
+
+.desc2 {
+    color: white;
+    font-size: 15px;
+    text-align: center;
+    margin-block-start: 40px;
+    padding: 40px;
+}
+
+body section {
+    height: calc(100vh - 38px);
+    position: relative;
+}
+
+.imgp {
+    background-image: url(hp.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.bar {
+    float: left;
+    width: 15px;
+    height: 6px;
+    border-radius: 2px;
+    background-color: #742d5e;
+}
+
+.title {
+    display: inline;
+    position: relative;
+}
+
+.container {
+    margin-bottom: 0px;
+    margin-top: 50px;
+    margin-left: 100px;
+    position: relative;
+    overflow: hidden;
+}
+.desc1{
+    font-family: 'Karla', sans-serif;
+    font-size: 40px;
+}
+
+.load-10 .bar {
+    animation: loadingJ 2s cubic-bezier(0.17, 0.37, 0.43, 0.67) infinite;
+}
+
+@keyframes loadingJ {
+    0%, 100% {
+        transform: translate(0, 0);
+    }
+
+    50% {
+        transform: translate(80px, 0);
+        background-color: #f5634a;
+        width: 25px;
+    }
+}
+
+.contenu{ 
+    width: 800px;
+    margin-left:auto;
+    margin-right:auto;
+    text-align:center;
+}
+
+form{
+    outline: none;
+    width:200px;
+    padding:8px;
+    margin-left:auto;
+    margin-right: auto;
+    background-color: yellow;
+    border: solid 4px #914545;
+    font-family: "open sans";
+    src: url('../Open_Sans/OpenSans-Regular.ttf');
+}
+
+button{
+    text-align: left;
+}
+
+button:hover{
+    background-color: #17c1ff;
+    color: white;
+    border: none;
+}
+
+button:active{
+    box-shadow: inset 1px 1px 1px 1px rgb(194, 16, 16);
+}
+
+input{
+    width: 250px;
+    height: 30px;
+    border: solid 2px #e6e6e6;
+    margin:1%;
+}
+
+input:hover{
+    border:2px solid #d629b9
+}
+
+.messagepart{
+    height: 40px;
+}
